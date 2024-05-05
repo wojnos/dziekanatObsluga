@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dziekanat.ControllerLegitymacji">
+    <children>
+        <TableView fx:id="tabelaListyLegitymacji" layoutX="147.0" layoutY="68.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="kolumnaId" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="kolumnaImie" prefWidth="222.0" text="Imie" />
+                <TableColumn fx:id="kolumnaNazwisko" prefWidth="302.0" text="Nazwisko" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

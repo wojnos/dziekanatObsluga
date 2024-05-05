@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="641.0" prefHeight="400.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.dziekanat.ControllerOknoWyswietlania">
+   <children>
+      <TableView fx:id="tabelaListyStudentow" layoutX="147.0" layoutY="68.0" prefHeight="400.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="kolumnaId" prefWidth="56.0" text="ID" />
+          <TableColumn fx:id="kolumnaImie" prefWidth="111.0" text="Imie" />
+            <TableColumn fx:id="kolumnaNazwisko" prefWidth="174.0" text="Nazwisko" />
+            <TableColumn fx:id="kolumnaCzyOplacone" prefWidth="75.0" text="Czy oplacone" />
+            <TableColumn fx:id="kolumnaCzyLegitymacja" prefWidth="75.0" text="Czy legitymacja podbita" />
+            <TableColumn fx:id="kolumnaNrGrupy" prefWidth="75.0" text="Nr grupy" />
+            <TableColumn fx:id="kolumnaRokStudiow" prefWidth="75.0" text="Rok studiow" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
